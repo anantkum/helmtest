@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  ecproto:
+    - apiVersion: v1
+      appVersion: v1.1.1
+      description: ecproto
+      name: ecproto
+      type: application
+      urls:
+        - https://github.com/anantkum/helmtest/raw/main/ecproto-0.1.0.tgz
+      version: "1.0.0"
