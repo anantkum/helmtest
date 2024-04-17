@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecproto
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ecproto
+  template:
+    metadata:
+      labels:
+        app: ecproto
+    spec:
+      containers:
+        - name: ecproto
+          image: default-route-openshift-image-registry.apps.thor.awsdevcloud.com/microservices/ec-protocol-bridge:v3.1
