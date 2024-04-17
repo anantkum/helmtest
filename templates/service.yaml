@@ -4,4 +4,4 @@ metadata:
   name: ecprotoservice
 spec:
   selector:
-    ecproto
+    app: ecproto
