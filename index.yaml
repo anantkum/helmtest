@@ -9,3 +9,12 @@ entries:
       urls:
         - https://github.com/anantkum/helmtest/raw/main/ecproto-0.1.0.tgz
       version: "1.0.0"
+  isoforest:
+    - apiVersion: v1
+      appVersion: v1.1.1
+      description: isoforest
+      name: isoforest
+      type: application
+      urls:
+        - https://github.com/anantkum/helmtest/raw/main/isoforest-0.1.0.tgz
+      version: "1.0.0"
